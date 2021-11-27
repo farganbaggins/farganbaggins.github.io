@@ -1,4 +1,6 @@
+
 import {} from "https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"
+
 const chiper = document.getElementById('chiper')
 const plain = document.getElementById('plain')
 
@@ -6,7 +8,7 @@ const plain = document.getElementById('plain')
 var key = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ];
 
 // Convert text to bytes
-var text = 'Cerca trova.';
+var text = 'Text may be any length you wish, no padding is required.';
 var textBytes = aesjs.utils.utf8.toBytes(text);
 
 // The counter is optional, and if omitted will begin at 1
