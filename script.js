@@ -6,7 +6,7 @@ const plain = document.getElementById('plain')
 var key = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ];
 
 // Convert text to bytes
-var text = 'Text may be any length you wish, no padding is required.';
+var text = 'Cerca trova.';
 var textBytes = aesjs.utils.utf8.toBytes(text);
 
 // The counter is optional, and if omitted will begin at 1
