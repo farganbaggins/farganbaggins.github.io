@@ -1,5 +1,5 @@
 
-import {} from "https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"
+//import {} from "https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"
 
 const chiper = document.getElementById('chiper')
 const plain = document.getElementById('plain')
